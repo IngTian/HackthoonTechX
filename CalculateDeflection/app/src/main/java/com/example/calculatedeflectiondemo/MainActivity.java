@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     double deflection = 180.0 - getAngle();
                     String h = (deflection - deflectionFromTrueSouth) < 0 ? " 向右 " : " 向左 ";
 
-                    String t = "偏转角: " + h + String.format("%.0f", (deflection - deflectionFromTrueSouth));
+                    String t = "偏转角: " + h + String.format("%.0f", abs(deflection - deflectionFromTrueSouth));
 
                     deflectionAngle.setText(t.toCharArray(), 0, t.length());
 
@@ -67,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
         public void onAccuracyChanged(Sensor sensor, int accuracy) {
         }
     };
+
+    private static double abs(double d) {
+        return d >= 0 ? d : -1 * d;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
