@@ -50,12 +50,13 @@
 
     <TextView
         android:id="@+id/deflectionAngle"
-        android:layout_width="232dp"
-        android:layout_height="29dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginLeft="108dp"
-        android:layout_marginTop="140dp"
+        android:layout_width="288dp"
+        android:layout_height="219dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="248dp"
         android:text="@string/deflection_angle"
+        android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/destinationCoordinate" />
 

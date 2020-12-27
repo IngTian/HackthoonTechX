@@ -44,8 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
                     double deflectionFromTrueSouth = 360.0 - destToCurAngle;
                     double deflection = 180.0 - getAngle();
+                    String h = (deflection - deflectionFromTrueSouth) < 0 ? " 向右 " : " 向左 ";
 
-                    String t = "Deflection: " + (deflection - deflectionFromTrueSouth);
+                    String t = "偏转角: " + h + String.format("%.0f", (deflection - deflectionFromTrueSouth));
 
                     deflectionAngle.setText(t.toCharArray(), 0, t.length());
 
