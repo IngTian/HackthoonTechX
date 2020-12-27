@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AMap3DDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/AMap3DDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AMap3DDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AMap3DDemo.app.iml" />
+    </modules>
+  </component>
+</project>

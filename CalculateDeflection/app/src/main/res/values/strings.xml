@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Calculate Deflection Demo</string>
+    <string name="current_position">当前坐标</string>
+    <string name="destination_position">目标坐标</string>
+    <string name="cur_coordinate">当前坐标</string>
+    <string name="dest_coordinate">目标坐标</string>
+    <string name="deflection_angle">偏角</string>
+</resources>
